@@ -16,7 +16,7 @@ Aplicación web que simula funciones CRUD de Posts y Comentarios para Prueba Tec
 
 2. Instalar dependencias:
    ```bash
-    cd tu-repositorio
+    cd tech_test
     composer install
     npm install
 
