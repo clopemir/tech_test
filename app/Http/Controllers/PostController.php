@@ -26,5 +26,23 @@ class PostController extends Controller
         return response()->json(['success' => 'Creado Ok!'], 201);
     }
 
+    public function show(Post $post) {
+        return $post->load('comments');
+    }
+
+    public function update(Post $post) {
+
+        $post->update(request()->all());
+
+        return response()->json($post, 200);
+    }
+
+    public function destroy(Post $post)
+{
+    $post->delete();
+
+    return response()->json('deleted', 204);
+}
+
 
 }
