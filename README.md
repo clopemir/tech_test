@@ -4,12 +4,18 @@
 Aplicación web que [describe brevemente la funcionalidad principal].
 
 **Requisitos previos:**
-* PHP >= [Versión de PHP]
+* PHP >= 8.0 o mayor
 * Composer
 * Node.js y npm (o yarn)
-* Base de datos: [Tipo de base de datos]
+* Base de datos: SQLite o MySQL
 
 **Instalación:**
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/clopemir/tech_test.git
+
+2. Instalar dependencias:
+   ```bash
+    cd tu-repositorio
+    composer install
+    npm install
