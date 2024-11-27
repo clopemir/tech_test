@@ -1,7 +1,7 @@
 # Proyecto Laravel y Vue.js
 
 **Descripción:**
-Aplicación web que [describe brevemente la funcionalidad principal].
+Aplicación web que simula funciones CRUD de Posts y Comentarios para Prueba Tecnica.
 
 **Requisitos previos:**
 * PHP >= 8.0 o mayor
@@ -19,3 +19,20 @@ Aplicación web que [describe brevemente la funcionalidad principal].
     cd tu-repositorio
     composer install
     npm install
+
+3. Configurar archivo .env:
+   ```bash
+    Copiar .env.example a .env y configurar las variables.
+
+4. Ejecutar comandos Artisan:
+   ```bash
+    php artisan key:generate
+    php artisan migrate
+
+5. Ejecutar Localmente:
+   ```bash
+    php artisan serve
+    npm run dev
+
+**Acceso:**
+* Ahora puedes acceder desde http:localhost:8000
